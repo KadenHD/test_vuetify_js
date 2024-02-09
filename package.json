@@ -5,7 +5,8 @@
     "dev": "cross-env NODE_OPTIONS='--no-warnings' vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint . --fix --ignore-path .gitignore"
+    "lint": "eslint . --fix --ignore-path .gitignore",
+    "clean": "rimraf dist node_modules"
   },
   "dependencies": {
     "@mdi/font": "7.0.96",
